@@ -1,0 +1,58 @@
+body {
+font-family: Arial;
+margin: 0;
+background: #fff0f5;
+text-align: center;
+}
+
+header {
+background: pink;
+padding: 15px;
+display: flex;
+justify-content: space-between;
+}
+
+nav a {
+margin: 10px;
+text-decoration: none;
+color: white;
+font-weight: bold;
+}
+
+.hero {
+padding: 60px;
+background: lavender;
+}
+
+button {
+padding: 10px 20px;
+border: none;
+background: hotpink;
+color: white;
+cursor: pointer;
+}
+
+.products {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+padding: 40px;
+}
+
+.card {
+width: 200px;
+margin: 15px;
+background: white;
+padding: 10px;
+box-shadow: 0px 0px 10px #ccc;
+cursor: pointer;
+transition: 0.3s;
+}
+
+.card:hover {
+transform: scale(1.05);
+}
+
+.card img {
+width: 100%;
+}
